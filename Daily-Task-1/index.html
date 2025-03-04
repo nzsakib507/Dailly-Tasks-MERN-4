@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LEDP</title>
+
     <link rel="stylesheet" href="./style.css">
     <link rel="x-icon/icon" href="" type="image/x-icon">
+
     <style>
+        /* Nav Menu Hover Css */
         .nav-hover:hover {
         background-color: aqua;
         transition-duration: 1s;
         cursor: grabbing;
         }
     </style>
+
 </head>
+
+
 <body style="margin: auto; width: 900px;">
+
+    <!-- Header Start -->
     <header>
         <table style="width: 900px;">
             <tr>
@@ -23,6 +31,9 @@
             </tr>
         </table>
     </header>
+    <!-- header Finished -->
+
+    <!-- nav menu starts here -->
     <nav style="padding: 10px 0px; border: 1px; border-color: black; border-style: solid;">
         <span class="nav-hover" style="padding: 10px 10px;">Home</span>
         <span class="nav-hover" style="padding: 10px 10px;">Course Module-2023</span>
@@ -30,16 +41,23 @@
         <span class="nav-hover" style="padding: 10px 10px;">FAQ</span>
         <span class="nav-hover" style="padding: 10px 10px;">Login</span>
     </nav>
+    <!-- nav menu finished here -->
+
+    <!-- form starts here -->
     <Form method="post" action="#">
         <h2  style="color: brown; text-align: center;">Student Registration Form</h2>
         <hr>
         <h4 style="padding: 0; margin: 0;">Please enter relevent information</h4>
         <div style="font-size: medium; color: red;">Mandatory Field*</div>
+        <!-- table is used for making 2 separate collum for form -->
         <table style="width: 900px; margin: auto; margin-bottom: 13px;">
             <tr>
+                
+                <!-- this is left side of the form -->
                 <td id="left-side" style="justify-content: baseline; align-items: start; margin: 0 auto;">
                     <label for="District" style="font-size: large; ">District <span style="font-size: small;">(Institute District: Where you want to do your course)</span>*</label>
                     <br>
+                    <!-- input field for District  -->
                     <select style="width: 400px; padding: 5px;" name="District" id="District" aria-placeholder="--Select Please--">
                         <option value="--Select Please--">--Select Please--</option>
                         <option value="Rajshahi">Rajshahi</option>
@@ -48,6 +66,8 @@
                         <option value="Khulna">Khulna</option>
                     </select>
                     <br>
+
+                    <!-- input field for Course  -->
                     <label for="Course" style="font-size: large;">Course*</label>
                     <br>
                     <select style="width: 400px; padding: 5px;" name="Course" id="Course" aria-placeholder="--Select Please--">
@@ -56,20 +76,26 @@
                         <option value="Geaphics Design">Geaphics Design</option>
                     </select>
                     <br>
+
+                    <!-- input field for student name fathers name and mother name and date of birth  -->
                     <label for="Students Name" style="font-size: large;">Students Name*</label>
                     <br>
                     <input style="width: 390px; padding: 5px;" type="text" name="Students Name" id="Students Name">
                     <br>
+
                     <label for="Father's Name" style="font-size: large;">Father's Name*</label>
                     <br>
                     <input style="width: 390px; padding: 5px;" type="text" name="Father's Name" id="Father's Name">
                     <br>
+
                     <label for="Mother's Name" style="font-size: large;">Mother's Name*</label>
                     <br>
                     <input style="width: 390px; padding: 5px;" type="text" name="Mother's Name" id="Mother's Name">
                     <br>
+
                     <label for="Date of Birth" style="font-size: large;">Date of Birth*</label>
                     <br>
+                    <!-- day of date of birth -->
                     <select style="width: 133px; padding: 5px;" name="DOB" id="DOB" aria-placeholder="--Select Please--">
                         <option value="Day">Day</option>
                         <option value="1">1</option>
@@ -86,6 +112,7 @@
                         <option value="12">12</option>
                         <option value="13">13</option>
                     </select>
+                    <!-- month of date of birth -->
                     <select style="width: 133px; padding: 5px;" name="Mob" id="Mob">
                         <option value="Month">Month</option>
                         <option value="1">1</option>
@@ -101,6 +128,7 @@
                         <option value="11">11</option>
                         <option value="12">12</option>
                     </select>
+                    <!-- year of date of birth -->
                     <select style="width: 133px; padding: 5px;" name="Yob" id="Yob">
                         <option value="Year">Year</option>
                         <option value="2001">2001</option>
@@ -118,6 +146,8 @@
                         <option value="2013">2013</option>
                     </select>
                     <br>
+
+                    <!-- input field for Gender  -->
                     <section id="Gender" style="margin: 5px 0;">
                         <span for="Gender" style="font-size: large; padding-right: 20px;">Gender*</span>
                         <input type="radio" id="Male" value="Male" name="gender">
@@ -125,6 +155,8 @@
                         <input type="radio" id="Female" value="Female" name="gender">
                         <label for="Female">Female</label>
                     </section>
+
+                    <!-- input field for Physically Handicaped  -->
                     <section id="Physically Handicapped" style="margin: 5px 0;">
                         <span for="Physically Handicapped" style="font-size: large; padding-right: 20px;">Physically Handicapped*</span>
                         <input type="radio" id="Yes" value="Yes" name="Physically Handicapped">
@@ -132,6 +164,8 @@
                         <input type="radio" id="No" value="No" name="Physically Handicapped">
                         <label for="No">No</label>
                     </section>
+
+                    <!-- input field for Email -->
                     <section id="Email">
                         <label for="Email" style="font-size: large;">Email*</label>
                         <br>
@@ -139,6 +173,8 @@
                         <br>
                         <div>(e.g: example@mail.com)</div>
                     </section>
+
+                    <!-- input field for Phone number  -->
                     <section id="Phone">
                         <label for="phone" style="font-size: large;">Phone <span style="font-size: small;">(Must be 11 Digits)*</span></label>
                         <br>
@@ -146,6 +182,9 @@
                         <br>
                     </section>
                 </td>
+                <!-- left side end -->
+
+                <!-- this is Right side of the form -->
                 <td id="right-side" style="margin: auto;">
                     <section id="Identification Type">
                         <label for="Identification Type" style="font-size: large;">Identification Type*</label>
@@ -158,6 +197,7 @@
                         <div style="width: 380px;">Identification No. <span style="font-size: small;">(Must be 10 digits for new NID or 17 digits for old NID. If your National ID is 13 digits, then please add your birth year with the ID as prefix. Example: 1980XXXXXXXXXXXXX)</span>*</div>
                         <input style="width: 390px; padding: 5px;" type="text" name="Identification Type" id="Identification Type">
                     </section>
+
                     <section id="Home District*">
                         <label for="Home District" style="font-size: large;">Home District*</label>
                         <br>
@@ -169,6 +209,7 @@
                             <option value="Dhaka">Dhaka</option>
                         </select>
                     </section>
+
                     <section id="Upazila">
                         <label for="Upazila" style="font-size: large;">Upazila*</label>
                         <br>
@@ -180,16 +221,19 @@
                             <option value="Boalia thana">Boalia thana</option>
                         </select>
                     </section>
+
                     <section id="Village/House No./Road No./Other Alternative">
                         <label for="Village/House No./Road No./Other Alternative*" style="font-size: large;">Upazila*</label>
                         <br>
                         <input style="width: 390px; padding: 5px;" type="text" name="Village/House No./Road No./Other Alternative" id="Village/House No./Road No./Other Alternative">
                     </section>
+
                     <section id="Post Office/House No./Road No./Other Alternative">
                         <label for="Post Office/House No./Road No./Other Alternative*" style="font-size: large;">Post Office*</label>
                         <br>
                         <input style="width: 390px; padding: 5px;" type="text" name="Post Office/House No./Road No./Other Alternative" id="Post Office/House No./Road No./Other Alternative">
                     </section>
+
                     <section id="Educational Qualification">
                         <label for="Educational Qualification" style="font-size: large;">Educational Qualification* (Higher Level)*</label>
                         <br>
@@ -201,6 +245,7 @@
                             <option value="M.Sc.">M.Sc.</option>
                         </select>
                     </section>
+
                     <section id="Have any computer?" style="margin: 5px 0;">
                         <span for="Have any computer?" style="font-size: large; padding-right: 20px;">Have any computer?*</span>
                         <input type="radio" id="Yes" value="Yes" name="Have any computer?">
@@ -208,12 +253,14 @@
                         <input type="radio" id="No" value="No" name="Have any computer?">
                         <label for="No">No</label>
                     </section>
+
                     <section id="Photograph">
                         <label for="photo" style="font-size: large; padding-right: 20px;">Photograph*</label>
                         <br>
                         <input type="file" id="photo" value="photo" name="photo">
                         <div style="width: 390px; font-size: small;">(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</div>
                     </section>
+
                     <section id="Signature">
                         <label for="Signature" style="font-size: large; padding-right: 20px;">Signature*</label>
                         <br>
@@ -221,15 +268,16 @@
                         <div style="width: 390px; font-size: small;">(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</div>
                     </section>
                     
-
-
                 </td>
             </tr>
         </table>
+
         <button id="submit-button" style="font-size: larger;width: 900px; padding: 7px; background-color: green; border-radius: 5px; border: 0px;">
             Submit Data
         </button>
+
     </Form>
     <hr>
+
 </body>
 </html>
