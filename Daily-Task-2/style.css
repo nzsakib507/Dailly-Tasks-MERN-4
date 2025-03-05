@@ -1,5 +1,4 @@
 #full-body{
-    
     margin: 0 auto;
 }
 #header{
@@ -33,17 +32,70 @@
     width: 20px;
     color: black;
 }
+
+
 #hero{
-    position: absolute;
+    position: relative;
     background-color: #F9F8F9;
 }
 .hero-main{
     width: 1440px;
-    padding: 200px 0px 100px 60px;
+    padding: 170px 0px 0px 60px;
+}
+.hero-rel{
 }
 .hero-title{
     width: 700px;
-    font-size: 90px;
+    font-size: 86px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
     color: #094B72;
-    
+}
+.hero-about{
+    padding: 40px 0;
+    width: 578px;
+    left: 2px;
+    font-size: 24px;
+    font-weight: 350;
+    line-height: 38px;
+    letter-spacing: .5px;
+    font-family: "Playfair Display", serif;
+    color: #4F4F4F;
+}
+.button-getstarted{
+    width: 190px;
+    height: 80px;
+    border: 0;
+    border-radius: 8px;
+    left: 35px;
+    font-family:  "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #F9F8F9;
+    background-color: #094B72;
+}
+.trusted-company{
+    width: 540px;
+    margin: 78px 0 40px 0;
+    font-family:  "Playfair Display", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #8B8C8C;
+}
+.trusted-company-logo{
+    top: 99px;
+}
+.hero-image{
+    position: absolute;
+    top: -40px;
+    width: 550px;
+    height: 950px;
+    left: 670px;
+}
+
+
+#section-why{
+
 }
