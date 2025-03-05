@@ -1,0 +1,49 @@
+#full-body{
+    
+    margin: 0 auto;
+}
+#header{
+    width: 1440px;
+    margin: auto;
+    position: sticky;
+}
+.nav-menu{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 1400px;
+}
+.main-logo{
+    width: 200px;
+}
+.menu{
+    
+}
+.menu-list{
+    display: flex;
+    list-style-type: none;
+    width: fit-content;
+    float: right;
+}
+.menu-items{
+    padding: 0 20px ;
+}
+.search-icon{
+    width: 20px;
+    color: black;
+}
+#hero{
+    position: absolute;
+    background-color: #F9F8F9;
+}
+.hero-main{
+    width: 1440px;
+    padding: 200px 0px 100px 60px;
+}
+.hero-title{
+    width: 700px;
+    font-size: 90px;
+    color: #094B72;
+    
+}
