@@ -4,8 +4,9 @@
 #header{
     /* width: 1440px; */
     margin: 0 180px;
-    position: sticky;
     z-index: 200;
+    position: sticky;
+    background-color: white;
 }
 .nav-menu{
     display: flex;
@@ -168,4 +169,75 @@
     font-family: "playfair display", sans-serif;
     font-weight: 400;
     color: #8B8C8C;
+}
+
+
+#achivement{
+    /* width: 1440px; */
+    height: 350px;
+    background-image: url(./assets/BG.png);
+}
+.count-main{
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.count-title{
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.5%;
+    font-family: "playfair display", sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.count-sub-title{
+    width: 750px;
+    padding: 10px 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.main-counts{
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 30px 0 0 0;
+}
+.c-1, .c-2{
+    width: 33.33%;
+    text-align: center;
+    color: white;
+    border-color: white;
+    border: 0;
+    border-right: 1px;
+    border-style: solid;
+}
+.c-3{
+    width: 33.33%;
+    text-align: center;
+    color: white;
+}
+.c-1-title{
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.5px;
+    font-family: "poppins", sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.c-1-about{
+    font-size: 18px;
+    line-height:32px;
+    letter-spacing: 0.3px;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    color: white;
 }
