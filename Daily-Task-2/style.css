@@ -109,7 +109,7 @@
 .our-feature{
     /* width: 1400px; */
     display: flex;
-    flex-wrap: ;
+    flex-wrap: nowrap;
     gap
 }
 .why-card{
@@ -240,4 +240,131 @@
     font-family: "poppins", sans-serif;
     font-weight: 300;
     color: white;
+}
+
+
+#testimonial{
+    background-color: #F4FBFF;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.testimonial-title{
+    text-align: center;
+    padding: 50px 0 30px 0;
+    color: black;
+    font-size: 48px;
+    line-height: 64px
+    letter-spacing: 0.5px;
+    font-family: "playfair display", sans-serif;
+    font-weight: 800;
+}
+.testimonial-cards{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.t-card-1{
+    width: 50%;
+    height: 230px;
+    text-align: center;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.t-card-1-title{
+    color: #151617;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height:28px;
+    letter-spacing: 0px;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+}
+.t-card-1-about{
+    color: #4F4F4F;
+    font-size: 14px;
+    line-height:24px;
+    letter-spacing: 0.5px;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+}
+.Client-detail{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Client-image{
+    width: 50px;
+    padding: 10px 10px;
+}
+.client-name{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+.client-position{
+    color: #8B8C8C;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+#questions{
+    background-color: white;
+    position: relative;
+}
+.ques-main{
+    width: 1100px;
+    margin: auto;
+}
+.ques-title{
+    color: black;
+    padding: 35px 0 20px 0;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+.ques-about{
+    color: #8B8C8C;
+    font-size: 24px;
+    font-weight: 300px;
+    line-height: 36px;
+    letter-spacing: .5px;
+    padding: 10px 400px 10px 0;
+}
+.call-button{
+    padding: 15px 25px;
+    margin: 20px 0;
+    background-color: #0F6E8C;
+    border: 0;
+    border-radius: 7px;
+}
+.call-icon{
+    width: 17px;
+    color: white;
+    padding-right: 5px;
+}
+.call-txt{
+    color: white;
+    font-size: 22px;
+    font-weight: 450;
+}
+.ques-image{
+    width: ;
+    height: 333px;
+    border-radius: 7px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+#footer{
+    color: white;
+    background-color: #0F6E8C;
 }
