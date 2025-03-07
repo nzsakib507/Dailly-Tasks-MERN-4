@@ -389,12 +389,14 @@
     font-size: 18px;
     font-weight: ;
     padding: 0 0 15px 0;
+    cursor: pointer;
 }
 .footer-list-items{
     list-style-type: none;
     font-size: 14px;
     font-weight: ;
     padding: 6px 0;
+    cursor: pointer;
 }
 .sub-footer{
     /* width: 1200px; */
@@ -405,6 +407,7 @@
 .sub-footer-image{
     width: 20px;
     padding: 0 5px;
+    cursor: pointer;
 }
 .sub-footer-icons{
     width: 1200px;
