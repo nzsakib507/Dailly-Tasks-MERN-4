@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Li Shohid Abu Sayed Unicode';
+    src: url('LiShohidAbuSayedUnicode.woff2') format('woff2'),
+        url('LiShohidAbuSayedUnicode.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Li Shohid Abu Sayed Unicode';
+    src: url('LiShohidAbuSayedUnicode.woff2') format('woff2'),
+        url('LiShohidAbuSayedUnicode.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Li Shohid Tahmid Tamin Unicode';
+    src: url('LiShohidTahmidTaminUnicode.woff2') format('woff2'),
+        url('LiShohidTahmidTaminUnicode.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

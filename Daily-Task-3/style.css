@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Li Shohid Abu Sayed Unicode";
+    src: url(./fonts-bangla/LiShohidAbuSayedUnicode.woff);
+    src: url(./fonts-bangla/LiShohidAbuSayedUnicode.woff2);
+}
+@font-face {
+    font-family: "Li Shohid Tahmid Tamin Unicode";
+    src: url(./fonts-bangla/LiShohidTahmidTaminUnicode.woff);
+    src: url(./fonts-bangla/LiShohidTahmidTaminUnicode.woff2);
+}
+
+
+
+
+
+
+.main-body{
+    margin: auto;
+}
+
+.header-title{
+    font-size: 38px; 
+    line-height: 48px; 
+    letter-spacing: 0.5px; 
+    font-family: "Li Shohid Abu Sayed Unicode", sans-serif; 
+    font-weight: 800; 
+    color: black;
+    margin: 20px 70px;
+}
+.nav-menu{
+
+}
+.nav-list{
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    margin: 0 30px;
+    padding: 10px 30px;
+    border-top: 1px solid black;
+    border-bottom: 2px solid black;
+    border-color: rgb(76, 69, 69);
+    font-family: 'Li Shohid Tahmid Tamin Unicode', Courier, monospace;
+}
+.nav-list>li>a{
+    color: black;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+
+.hero-news{
+    width: 1200px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.hero-news-cards{
+    width: 330px;
+    background-color: rgb(227, 227, 227);
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.card-image{
+    width: 330px;
+    margin: 0 auto;
+    /* height: 200px; */
+    /* overflow: hidden; */
+    border-radius: 10px;
+}
+.card-title{
+    padding: 10px 0;
+    font-size: 28px;
+    text-align: justify;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    font-family: "Li Shohid Tahmid Tamin Unicode", sans-serif;
+    font-weight: 700;
+    color: black;
+}
+ .cart-about{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    font-family: "Li Shohid Abu Sayed Unicode", sans-serif;
+    font-weight: 400;
+    overflow: hidden;
+ }
