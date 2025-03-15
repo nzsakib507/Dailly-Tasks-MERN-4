@@ -1,3 +1,5 @@
+github repo : https://github.com/nzsakib507/Dailly-Tasks-MERN-4
+
 Daily-Task-1 : Regestration-Form
 live link: https://nzsakib507.github.io/Dailly-Tasks-MERN-4/Daily-Task-1/Regestration-Form/
 netlify live link: https://daily-task-001.netlify.app/daily-task-1/regestration-form/ 
@@ -23,9 +25,10 @@ live link:
 netlify live link: 
 
 
-Daily-Task-6 :
-live link: 
-netlify live link: 
+Daily-Task-6 : css flexbox practice
+github repo link: https://github.com/nzsakib507/Dailly-Tasks-MERN-4/tree/main/Daily-Task-6/E-commerce-product-page-Frontend-Mentor
+live link: https://nzsakib507.github.io/Dailly-Tasks-MERN-4/Daily-Task-6/E-commerce-product-page-Frontend-Mentor/
+netlify live link: https://daily-task-001.netlify.app/daily-task-6/e-commerce-product-page-frontend-mentor/
 
 
 Daily-Task-7 :
