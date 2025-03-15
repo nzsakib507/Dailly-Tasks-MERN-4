@@ -31,7 +31,8 @@ live link: https://nzsakib507.github.io/Dailly-Tasks-MERN-4/Daily-Task-6/E-comme
 netlify live link: https://daily-task-001.netlify.app/daily-task-6/e-commerce-product-page-frontend-mentor/
 
 
-Daily-Task-7 :
+Daily-Task-7 : css position and css background practice
+figma : 
 live link: 
 netlify live link: 
 

@@ -142,8 +142,10 @@ img{
     display: block;
 }
 .add-to-cart-number{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
+    background-color: rgba(128, 128, 128, 0.474);
+    padding: 15px 5px;
     border-radius: 15px;
     color: #000;
     display: inline-block;
