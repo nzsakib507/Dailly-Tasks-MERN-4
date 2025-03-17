@@ -1,1 +1,183 @@
 /* EdTech Landing Page (Community) (Copy) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #FEFEFE;
+}
+
+#header{
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.499);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* display: block; */
+}
+.header-area{
+    /* width: 1440px; */
+    max-width: 1200px;
+    min-width: 700px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    /* overflow-wrap: normal; */
+}
+.menu-item> ul{
+    display: flex;
+    list-style-type: none;
+    color: black;
+}
+.menu-item> ul > li >a{
+    padding: 0 20px;
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.menu-item> ul > li :hover {
+    color: #ff7b00;
+    transition-duration: .4s;
+}
+.header-button{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+.sign-in-button{
+    border-radius: 10px;
+    padding: 10px 29px;
+    border: none;
+    background: transparent;
+}
+.log-in-button{
+    border-radius: 7px;
+    padding: 10px 29px;
+    background-color: aqua;
+    border: none;
+}
+
+
+#hero{
+
+}
+.hero-container{
+    max-width: 1550px;
+    min-width: 700px;
+    /* width: 100%; */
+    padding-top: 120px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.hero-bg-top-middle{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+.hero-bg-3{
+    position: absolute;
+    top: 7%;
+    left: 0;
+}
+.hero-bg-r1{
+    position: absolute;
+    top: 18%;
+    right: 0;
+}
+.hero-bg-r2{
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+}
+.hero-left{
+    flex: 50%;
+    position: relative;
+}
+.hero-right{
+    flex: 50%;
+}
+.hero-left-container{
+    width: 80%;
+    float: right;
+}
+.hero-sub-title{
+    font-family: 'poppons', sans-serif;
+    font-size: 20px;
+    color: #2f2b71;
+    margin-bottom: 20px;
+    font-weight: 500;
+    letter-spacing: 10px;
+}
+.hero-title{
+    font-family: 'poppins', sans-serif;
+    font-size: 70px;
+    color: #5f596e;
+    /* margin-bottom: 20px; */
+    font-weight: 700;
+    /* letter-spacing: 23.5%; */
+    line-height: 115.999%;
+}
+.hero-description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: black;
+    /* margin-bottom: 30px; */
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    padding: 35px 0;
+}
+.apply-button{
+    border-radius: 7px;
+    padding: 18px 35px;
+    border: none;
+    background-color: #54b8ff;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+}
+.hero-bottom-background{
+    /* width: fit-content; */
+    float: right;
+}
+.hero-bottom-background>div{
+    width: fit-content;
+    /* float: right; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+    align-items: end;
+}
+.hero-bottom-background>div>img{
+    /* float: right; */
+    /* display: flex; */
+    flex-wrap: nowrap;
+    align-items: end;
+    justify-content: end;
+    text-align: end;
+    position: relative;
+    right: 0;
+}
+.hero-bg-bottom-left{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
