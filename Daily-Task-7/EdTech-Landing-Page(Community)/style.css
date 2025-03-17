@@ -10,7 +10,7 @@ body {
 
 #header{
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.499);
+    background: rgba(255, 255, 255, 0.852);
     position: fixed;
     top: 0;
     width: 100%;
@@ -171,6 +171,7 @@ body {
     /* display: flex; */
     flex-wrap: nowrap;
     align-items: end;
+    /* align-self: flex-end; */
     justify-content: end;
     text-align: end;
     position: relative;
@@ -181,3 +182,210 @@ body {
     left: 0;
     bottom: 0;
 }
+
+
+
+#Best-teacher{
+
+}
+.BT-container{
+    max-width: 1200px;
+    min-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.bt-left-side{
+    flex: 45%;
+}
+/* main left side card */
+.basic-to-higher-card{
+    width: 345px;
+    height: 400px;
+    border: 2px solid rgba(224, 223, 223, 0.575);
+    border-radius: 28px;
+    background-color: white;
+    /* box-shadow: 10px 10p  gray; */
+    padding: 20px;
+    margin-top: 230px;
+    position: relative;
+}
+.Higher-study-bg-image{
+    position: absolute;
+    z-index: -1;
+    bottom: 10px;
+    left: 180px;
+}
+.basic-to-higher-card>img{
+    width: 100%;
+}
+.basic-to-higher-card-sub-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #ff733b;
+    padding: 10px 0;
+    font-weight: 500;
+}
+.basic-to-higher-card-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #04004d;
+    padding: 10px 0;
+    font-weight: 600;
+}
+.basic-to-higher-card-class{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #898e92;
+    /* margin-bottom: 10px; */
+    font-weight: 400;
+    /* letter-spacing: 1px; */
+}
+.basic-to-higher-card-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 0 15px 0;
+}
+.join-now-button{
+    border-radius: 7px;
+    padding: 7px 10px;
+    border: none;
+    font-size: 12px;
+    background-color: #367166;
+    color: white;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+.card-time{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #898e92;
+    font-weight: 400;
+}
+
+/* floating part */
+.congratulation-card{
+    position: absolute;
+    top: -130px;
+    left: 90px;
+    width: fit-content;
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 12px;
+    border-radius: 12px;
+    box-shadow: 20px 25px 20px -12px rgb(0 0 0 / 0.25);
+}
+.congratulation-card-image{
+    
+}
+.congratulation-card-text{
+    
+}
+.congratulation-card-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #04004d;
+    font-weight: 600;
+}
+.congratulation-card-about{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #898e92;
+    font-weight: 400;
+}
+/* this is floating  */
+.Teachers-Statistics{
+    position: absolute;
+    top: -130px;
+    left: 270px;
+    width: 280px;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 50px 25px;
+    border-radius: 15px;
+    border: 2px solid rgba(224, 223, 223, 0.575);
+}
+.Teachers-Statistics-title{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #04004d;
+    font-weight: 600;
+}
+.Teachers-Statistics>img{
+    width: ;
+    margin: 0 auto;
+    display: block;
+    padding: 30px 0;
+}
+.Teachers-Statistics-bottom{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.Teachers-Statistics-bottom-left{
+    flex: 50%;
+    font-family: 'Inter',sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: #fab408;
+    background-color: #fff3d4;
+    padding: 8px 0px;
+    border-radius: 8px;
+}
+.Teachers-Statistics-bottom-right{
+    flex: 50%;
+    font-family: 'Inter',sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: #19bf6f;
+    background-color: #dcffee;
+    padding: 8px 0px;
+    border-radius: 8px;
+}
+/* this is right side of best teacher */
+.bt-right-side{
+    flex: 45%;
+    margin: 0 auto;
+}
+.bt-right-title{
+    font-family: 'inter', sans-serif;
+    font-size: 50px;
+    color: #04004d;
+    /* margin-bottom: 20px; */
+    font-weight: 700;
+    line-height: 60px;
+    /* letter-spacing: 10px; */
+}
+.bt-r-description{
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    color: #336c61;
+    font-weight: 400;
+    padding: 38px 0;
+    line-height: 25px;
+    /* margin-bottom: 30px; */
+    /* letter-spacing: 1.5px; */
+}
+.read-more-button{
+    border-radius: 7px;
+    padding: 18px 35px;
+    border: none;
+    font-size: 18px;
+    background-color: #54b8ff;
+    color: rgb(238, 223, 223);
+    font-weight: 500;
+    font-family: 'inter', sans-serif;
+}
+
+
