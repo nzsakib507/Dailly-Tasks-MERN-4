@@ -211,3 +211,21 @@ const characters = [
 // Num.sort((a,b) => b-a);
 
 // console.log(Num);
+
+// =========================================================================
+// =======================================================================
+
+
+
+
+
+
+
+
+
+// REDUCE
+// 1. Get the total mass of all characters
+// 2. Get the total height of all characters
+// 3. Get the total number of characters in all the character names
+
+
