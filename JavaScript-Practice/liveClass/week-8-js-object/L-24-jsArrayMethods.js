@@ -219,7 +219,7 @@ const characters = [
 
 
 
-
+// Reduce is in next class
 
 
 
@@ -227,5 +227,5 @@ const characters = [
 // 1. Get the total mass of all characters
 // 2. Get the total height of all characters
 // 3. Get the total number of characters in all the character names
-
+// 4. Get the total number of characters by eye color (hint. a map of eye color to count)
 
